@@ -2,8 +2,6 @@ const emptyArray = [];
 const guessedNumber = document.getElementById("numberGuessInputBox");
 const guessNumberValue = Number(guessedNumber.value);
 const inputedArray = [guessNumberValue];
-//////////////////////////////////
-
 const checkingNumber = document.getElementById("checkingNumer");
 const myNumber = Math.floor(Math.random() * 19 + 1);
 const yourScore = document.getElementById("scoreText");
@@ -35,6 +33,11 @@ checkingNumber.addEventListener("click", function () {
   } 
   guessedNumber.value = "";
   emptyArray.push(guessNumberValue);
-  console.log(emptyArray);
  
+});
+const playAgain = document.querySelector(".play_again");
+playAgain.addEventListener("click", () => {
+  const numberOutput = document.getElementById("numberOutput");
+  numberOutput.textContent = "?";
+  yourScore.textContent = '';
 });
