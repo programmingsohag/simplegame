@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Game</title>
+    <link rel="icon" href="download.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="section_1">
+      <button class="play_again">Again</button>
+      <p>Between 1 - 20</p>
+    </div><br>
+    <div class="section_2">
+      <h1>Guess My Number ! </h1><br>
+    </div>
+    <br /><br />
+    <div class="section_3">
+      <div class="inputBoxPart">
+        <input
+          type="number"
+          name="guessingnumber"
+          id="numberGuessInputBox"
+        />
+        <br /><br />
+        <button id="checkingNumer">Check</button><br />
+      </div>
+
+      <div class="textPart">
+        <p id="guessingText">Guessing Your Number.....</p>
+        <br />
+        <p>Your Score : <p id="scoreText"></p></p>
+        <br />
+        <p id="highScoreText">High Score :</p>
+      </div>
+    </div><br>
+    <div class="section_4">
+        <button id="numberOutput">?</button>
+    </div>
+  </body>
+</html>

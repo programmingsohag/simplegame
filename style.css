@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Poppins:wght@300&family=Rubik+Iso&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Arvo", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik Iso", cursive;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+body {
+  background-color: #1b1d1e;
+}
+.section_1 {
+  display: flexbox;
+  padding: 10px;
+  /* border:2px solid red; */
+  height: 150px;
+}
+.section_1 button {
+  padding: 20px;
+  width: 30%;
+  height: 100px;
+  float: left;
+  outline: none;
+  font-size: 50px;
+  font-weight: bolder;
+  border: 2px solid white;
+  text-align: center;
+  background-color: #1b1d1e;
+  color: white;
+  cursor: pointer;
+}
+.section_1 p {
+  float: right;
+  font-size: 40px;
+  color: white;
+  padding-top: 15px;
+}
+
+.section_2 {
+  border-bottom: 5px solid white;
+  text-align: center;
+}
+.section_2 h1 {
+  padding: 10px;
+  font-size: 70px;
+  color: white;
+}
+.section_3 {
+  padding: 20px;
+  color: white;
+}
+.section_3 input {
+  padding: 20px;
+  font-size: 35px;
+  font-weight: bolder;
+  width: 80%;
+  height: 100px;
+  border-radius: 2px;
+  outline: none;
+  border: 2px solid white;
+  text-align: center;
+  background-color: #1b1d1e;
+  color: white;
+  cursor: pointer;
+}
+.section_3 button {
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+  width: 80%;
+  height: 100px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+}
+.inputBoxPart {
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+.textPart {
+  text-align: center;
+  font-size: 30px;
+}
+.section_4 button{
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+    width: 30%;
+}
+.section_4{
+    text-align: center;
+    padding-top: 60px;
+}
